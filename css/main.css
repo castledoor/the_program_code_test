@@ -1,0 +1,65 @@
+p {
+	padding-bottom: 10px;
+	letter-spacing: 1px
+}
+
+.white {
+	padding: 50px  20px 30px 20px;
+	margin: 0;
+}
+
+#row-1 {
+	padding-bottom: 27%;
+}
+
+#logo {
+	width: 45%;
+	padding: 22px 0 0 0;
+
+}
+
+#foreign-paragraph {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 25px;
+	height: 60%;
+}
+
+#first-para {
+	line-height: 35px;
+}
+
+#spacing {
+	letter-spacing: 2px;
+}
+
+#mission {
+	line-height: 21px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 500;
+
+}
+
+.new-line {
+	display: block;
+}
+
+#welcome {
+	color : #34bce9;
+}
+
+
+.grey {
+	background-color: #f4f4f4;
+}
+
+.blue {
+	background-color: #34bce9;
+}
+
+@media (max-width: 992px) {
+	#foreign-paragraph {
+		padding-top: 30px;
+	}
+}
