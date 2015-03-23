@@ -1,3 +1,5 @@
+
+
 p {
 	padding-bottom: 10px;
 	letter-spacing: 1px
@@ -48,6 +50,7 @@ p {
 
 #welcome {
 	color : #34bce9;
+	font-weight: 700;
 }
 
 
@@ -68,11 +71,70 @@ p {
 }
 
 .blue {
-	background-color: #34bce9;
+	text-align: center;
+	padding: 115px 0 115px 0;
+	color: white;
+	letter-spacing: 1px
+}
+
+.map {
+	background-image: url("../img/map.png");
+}
+
+.blue p.button {
+	color: #34bce8;
+	font-weight: 700;
+	background-color: white;
+	padding: 5px 0 5px 0 ;
+	border-radius: 23px;
+	margin-bottom: 70px;
+
+}
+
+.bullet, .footer-details {
+	text-shadow: 1px 1px rgba(127, 124, 124, 0.3);
+}
+
+.bullet {
+	font-size: 19px;
+	padding-bottom: 20px;
+	letter-spacing: 4px
+}
+
+.footer-details {
+  font-size: 16px;
+  padding-top: 25px;
+}
+
+#phone {
+	font-weight: 700;	
+}
+
+.footer-row {
+	height: 40%;
+}
+
+.address {
+	margin-top: 35px;
+	width: 85px;
+}
+
+.business {
+	width: 309px;
+	margin-top: 29px;
+}
+
+.career {
+	margin-top: 71px;
+	width: 320px;
 }
 
 @media (max-width: 992px) {
 	#foreign-paragraph {
 		padding-top: 30px;
+	}
+
+	.button {
+		margin-bottom: 30px;
 	}
 }
